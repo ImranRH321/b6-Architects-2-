@@ -3,4 +3,15 @@
     flex-direction: column;
     width: 100%;
   }
+  .banner_content {
+    width: 100%;
+    padding: 10px 0;
+}
+.orange_btn {
+    width: 158px;
+    height: 43px;
+}
+.banner_img_container img {
+    height: 243px;
+}
 }
