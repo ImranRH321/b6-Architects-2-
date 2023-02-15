@@ -14,4 +14,9 @@
 .banner_img_container img {
     height: 243px;
 }
+/*  */
+.list_our_feature {
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 50px
+}
 }
