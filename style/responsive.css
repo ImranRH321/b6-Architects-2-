@@ -14,9 +14,29 @@
 .banner_img_container img {
     height: 243px;
 }
-/*  */
+/* list_our_feature */
 .list_our_feature {
     grid-template-columns: repeat(1, 1fr);
     margin-top: 50px
 }
+/* will_feature */
+.will_love_feature_container {
+    flex-direction: column-reverse;
+    align-items: stretch;
+    
+    margin-top: 20px;
+}
+.will_love_img_div  {
+    width: 90%;
+    height: 523px;
+    margin: 0 auto;
+}
+.list_content_div {
+    width: 100%;
+    margin-top: 41px;
+}
+.love_box_div {
+    background-color: rgb(229, 240, 240);
+  }
+
 }

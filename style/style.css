@@ -89,7 +89,6 @@ header ul li a {
 /* ===================== */
 .banner_img_container {
   width: 90%;
-  /* border: 2px solid; */
   margin: 0 auto;
 }
 .banner_img_container img {
@@ -102,13 +101,12 @@ Our List feature
 .list_our_feature {
   width: 85%;
   margin: 0 auto;
+  margin-top: 50px;
 }
 .list_our_feature {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-column-gap: 50px;
-  height: 500px;
-  border: 2px solid;
   align-items: center;
 }
 .list_img_container_info {
@@ -121,17 +119,15 @@ Our List feature
 .list_img_div img {
   width: 200px;
   height: 200px;
-  border: 2px solid;
 }
 .list_content_div {
   width: 100%;
-  border: 2px solid;
 }
-.list_content_div h3{
-font-weight: 500;
-font-size: 2rem;
+.list_content_div h3 {
+  font-weight: 500;
+  font-size: 2rem;
 
-color: #727272;
+  color: #727272;
 }
 .our_text_info {
   font-style: normal;
@@ -139,4 +135,69 @@ color: #727272;
   font-size: 16px;
   color: #727272;
   margin: 24px 0;
+}
+/* =========================== */
+/* will_love_feature_container*/
+/* =================================== */
+.will_love_feature_container {
+  display: flex;
+  gap: 55px;
+  padding: 10px;
+  margin-top: 100px;
+}
+.love_second_feature_content_info {
+  width: 100%;
+}
+.will_love_img_div {
+  width: 100%;
+}
+.will_love_img_div img {
+  width: 100%;
+}
+/* = */
+.love_box_div {
+  box-shadow: 5px 10px #8888882e;
+  padding: 10px;
+  margin: 15px 0;
+  background: #ada7a700;
+}
+
+.default h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2rem;
+  color: #131313;
+  padding: 8px;
+}
+
+.default p,
+.love_box_div p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  color: #727272;
+  margin: 10px;
+}
+
+.will_love_img_div {
+  position: relative;
+}
+
+.fixed_bottom_text {
+    position: absolute;
+    bottom: 9px;
+    left: -34px;
+    width: 120px;
+    height: 120px;
+    background: #ff900e;
+    border-radius: 8px;
+    color: #ffffff;
+}
+.fixed_bottom_text button{
+    width: 100%;
+    padding-top: 50px;
+    font-size: 1rem;
+}
+.btn_text{
+    font-size: 25px;
 }
