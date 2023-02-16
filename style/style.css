@@ -184,20 +184,23 @@ Our List feature
 }
 
 .fixed_bottom_text {
-    position: absolute;
-    bottom: 9px;
-    left: -34px;
-    width: 120px;
-    height: 120px;
-    background: #ff900e;
-    border-radius: 8px;
-    color: #ffffff;
+  position: absolute;
+  bottom: 9px;
+  left: -34px;
+  width: 129px;
+  height: 90px;
+  background: #ff900e;
+  border-radius: 8px;
+  color: #ffffff;
+  bottom: 0;
 }
-.fixed_bottom_text button{
-    width: 100%;
-    padding-top: 50px;
-    font-size: 1rem;
+.fixed_bottom_text button {
+  width: 100%;
+  /* margin-top: -42px; */
+  font-size: 1rem;
+  position: absolute;
 }
+
 .btn_text{
     font-size: 25px;
 }
@@ -235,7 +238,20 @@ Our List feature
   width: 200px;
   padding: 2rem;
   margin-top: 80px;
+  border: 1px solid orange;
+  border-radius: 8px;
 }
+
+.services_container:hover .service{
+  background-color: #96ea36;
+  color: rgb(0, 0, 0);
+  transform: rotate(360deg);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transition: 500ms;
+  
+}
+
+
 .service img{
   width: 45px;
 }
