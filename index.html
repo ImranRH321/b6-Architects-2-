@@ -4,12 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>architects_four</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.jpg" />
+    <title>Architects_4</title>
     <link rel="stylesheet" href="style/style.css" />
     <link rel="stylesheet" href="/style/responsive.css" />
   </head>
   <body>
-    <header>
+    <header id="home">
       <!-- navbar via  -->
       <nav class="nav_container">
         <div>
@@ -17,10 +18,10 @@
           <h3 class="logo_title">G3 Architects</h3>
         </div>
         <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">About</a></li>
-          <li><a href="">clients</a></li>
-          <li><a href="">Footer</a></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#blog">blog</a></li>
+          <li><a href="#will_feature">will_feature</a></li>
+          <li><a href="#services">services</a></li>
         </ul>
       </nav>
       <!-- banner_content  -->
@@ -50,8 +51,22 @@
     </header>
 
     <main>
+    <div id="blog" class="blog_container">
+       <div class="blog_content">
+        <img src="images/artc/5.png" alt="">
+       </div>
+       <div class="blog_content">
+        <img src="images/artc/6.jpg" alt="">
+       </div>
+       <div class="blog_content">
+        <img src="images/artc/7.jpg" alt="">
+       </div>
+       <div class="blog_content">
+        <img src="images/artc/8.jpg" alt="">
+       </div>
+    </div>
+      <!-- list out area  -->
       <section class="list_our_feature">
-        <!-- list_out_feature -->
         <div class="list_img_container_info">
           <div class="list_img_div"><img src="images/team1.png" alt="" /></div>
           <div class="list_img_div"><img src="images/team2.png" alt="" /></div>
@@ -79,9 +94,38 @@
           </div>
         </div>
       </section>
+      <section
+        class="list_our_feature"
+      >
+        <!-- list_out_feature -->
+        <div class="list_img_container_info">
+          <div class="list_img_div"><img src="images/artc/1.jpg" alt="" /></div>
+          <div class="list_img_div"><img src="images/artc/2.jpg" alt="" /></div>
+          <div class="list_img_div"><img src="images/artc/3.jpg" alt="" /></div>
+          <div class="list_img_div"><img src="images/artc/4.jpg" alt="" /></div>
+        </div>
+        <!-- content -->
+        <div 
+        style="background-color: rgba(127, 255, 212, 0.704); padding: 7px" class="our_list_conainer">
+          <div class="list_content_div">
+            <h3 style="color: rgb(159 107 107)">
+              Team Discussion <span style="color: black">of Our </span>
+              <br />
+              <span style="color: orange">Features</span>
+            </h3>
+            <p class="our_text_info">
+              <span>
+                There are many variations of passages of Lorem Ipsum available,
+                but the majority have suffered alteration in some form, by
+                injected humour, or randomised words which don't look even
+              </span>
+            </p>
+          </div>
+        </div>
+      </section>
       <!-- will love feature section  -->
 
-      <section class="will_love_feature_container">
+      <section id="will_feature" class="will_love_feature_container">
         <div class="love_second_feature_content_info">
           <div class="default">
             <h2>
@@ -140,8 +184,9 @@
           </div>
         </div>
       </section>
+
       <!-- Same Facts Area -->
-      <section class="same_container">
+      <section id="services" class="same_container">
         <h2 class="sameTitle">Some Facts</h2>
         <p>
           There are many variations of passages of Lorem Ipsum available,

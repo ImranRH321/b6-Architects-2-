@@ -14,6 +14,15 @@
 .banner_img_container img {
     height: 243px;
 }
+/* blog_container */
+.blog_container{
+    grid-template-columns: repeat(2, 1fr);
+}
+.blog_content {
+    max-width: 241px;
+    margin: 0 auto;
+}
+
 /* list_our_feature */
 .list_our_feature {
     grid-template-columns: repeat(1, 1fr);
