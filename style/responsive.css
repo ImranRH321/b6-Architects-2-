@@ -39,4 +39,8 @@
     background-color: rgb(229, 240, 240);
   }
 
+  /* =======sponsors  section*/
+ .client_container {
+    flex-wrap: wrap;
+}
 }
